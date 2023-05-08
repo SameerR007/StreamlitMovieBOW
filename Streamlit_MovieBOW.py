@@ -13,7 +13,7 @@ def recommend(movie):
     return(recom_movies)
 
 def main():
-    st.title("Movie Recommendar system")
+    st.title("Movie Recommender system")
     movies_list=movies_data['title']
     selected=st.selectbox('Which movie have you seen',movies_list)
     
