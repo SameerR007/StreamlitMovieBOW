@@ -1,7 +1,6 @@
 import streamlit as st
 import pandas as pd
 import pickle
-pd.read_pickle('foo.pkl')
 movies_data=pickle.load(open("movies_data.pkl","rb"))
 similarity=pickle.load(open("similarity.pkl","rb"))
 def recommend(movie):
